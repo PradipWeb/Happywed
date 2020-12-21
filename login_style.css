@@ -1,0 +1,30 @@
+/* set entire body that is webpage */
+body{
+     background-image:url('images/1.jpeg');
+	background: #383a3d;
+	padding-top: 25vh;	
+}
+/* set form background colour*/
+form{
+	background: #fff;
+}
+/* set padding and size of th form */
+.form-container{
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+img{
+    
+    max-height=100px;
+    max-width: 100px;
+
+}
