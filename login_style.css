@@ -1,9 +1,5 @@
 /* set entire body that is webpage */
-body{
-     background-image:url('images/1.jpeg');
-	background: #383a3d;
-	padding-top: 25vh;	
-}
+
 /* set form background colour*/
 form{
 	background: #fff;
@@ -24,7 +20,72 @@ form{
 
 img{
     
-    max-height=100px;
-    max-width: 100px;
-
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
+
+body {
+     margin: 0;
+
+  background-image: url('images/1.jpeg');
+
+  background-repeat: no-repeat;
+
+  color: #FFFFFF;
+    
+
+  }
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
